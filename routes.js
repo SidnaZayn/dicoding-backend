@@ -4,11 +4,6 @@ const routes = [
     {
         method: 'POST',
         path: '/notes',
-        handler: () => { },
-    },
-    {
-        method: 'POST',
-        path: '/notes',
         handler: addNoteHandler,
     },
     {
